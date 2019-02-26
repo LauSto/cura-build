@@ -14,7 +14,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 ROOT_DIR="${SCRIPT_DIR}/.."
 
 # Docker image to use for building the AppImage
-cura_build_env_image="cura-build-env:centos7"
+cura_build_env_image="cura-build-env"
 
 pushd "${ROOT_DIR}" > /dev/null
 
